@@ -113,7 +113,7 @@ export function New(){
           <div className="input-name">
             <p>Nome</p>
             <Input 
-            placeholder="Ex.: Salada Ceasar"
+            placeholder="Ex.: Salada Cesar"
             onChange={e => setName(e.target.value)}
             required
             />

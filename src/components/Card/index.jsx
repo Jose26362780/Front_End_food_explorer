@@ -1,12 +1,12 @@
-import { AiFillHeart, AiOutlineHeart} from 'react-icons/ai'
-import { Button } from "../Button";
-import { BoxCounter, ButtonMoreLess, Container, Counter } from "./styles";
-import { Minus } from "../../assets/icons/minus";
-import { Plus } from "../../assets/icons/plus";
 import { useState } from "react";
-import { ButtonTransparent } from "../ButtonTransparent";
-import { useNavigate } from "react-router-dom";
+import { Button } from "../Button";
 import { api } from "../../services/api";
+import { useNavigate } from "react-router-dom";
+import { Plus } from "../../assets/icons/plus";
+import { Minus } from "../../assets/icons/minus";
+import { ButtonTransparent } from "../ButtonTransparent";
+import { AiFillHeart, AiOutlineHeart} from 'react-icons/ai'
+import { BoxCounter, ButtonMoreLess, Container, Counter } from "./styles";
 
 export function Card({ title, image, id, description, price, setAllOrders, setFavoriteP, favoriteP,  ...rest}) {
   const [quantity, setQuantity] = useState(1)
@@ -28,6 +28,7 @@ export function Card({ title, image, id, description, price, setAllOrders, setFa
 
     return false
   })
+
 
   
 
