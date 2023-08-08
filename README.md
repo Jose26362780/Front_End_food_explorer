@@ -4,7 +4,7 @@
 
 > Desafio Final - Explorer 
 
-![preview](./.github/capa.png)
+![preview](./.github/Capa.png)
 
 👉🏼[Link do projeto]()
 
@@ -12,7 +12,7 @@
 
 ### User adm
 - Login: admin@email.com
-- Password: 123456
+- Password: 1234567
 
 
 ### 🛠 Technologies and Tools
