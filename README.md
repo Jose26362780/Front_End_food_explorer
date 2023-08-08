@@ -15,6 +15,53 @@
 - Password: 1234567
 
 
+
+## Instalação
+
+Instale com npm
+
+```bash
+  npm install 
+```
+    
+## Deploy
+
+Para fazer o deploy desse projeto rode
+
+```bash
+  npm run deploy
+```
+
+
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/Jose26362780/Front_End_food_explorer.git
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd my-project git@github.com:Jose26362780/Front_End_food_explorer.git
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run dev 
+```
+
+
+
+
 ### 🛠 Technologies and Tools
 Seguem as tecnologias e ferramentas utilizadas durante o projeto
 
@@ -41,9 +88,12 @@ Seguem as tecnologias e ferramentas utilizadas durante o projeto
 
 
 
-## Contato 💻
+
+## 🔗 Links de Contato 💻
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jose-martinez-352032222/)
+
 
 - [Email] juniorjose1925@gmail.com
 
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jose-martinez-352032222/)
