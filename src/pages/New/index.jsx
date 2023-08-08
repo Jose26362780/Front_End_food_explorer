@@ -72,6 +72,7 @@ export function New(){
         },
       };
 
+
       await api.patch(`/dishes/image/${dish_id}`, fileUpload, config) 
 
       alert("Prato criado com sucesso!");
