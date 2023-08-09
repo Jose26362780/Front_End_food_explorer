@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import Carousel from "react-elastic-carousel";
+import Carousel  from "react-elastic-carousel";
 
 export function Section({ title, children}) {
   const breakPoints = [
