@@ -4,19 +4,19 @@ export const Container = styled.div`
   width: 100%;
   color: white;
 
-  h1 {
-    font-family: ${({ theme }) => theme.COLORS.WHITE};
-    font-size: 2rem;
-    font-weight: 500;
-    margin: 20px 0 20px 25px;
-  }
-  .rec-arrow {
-    font-size: 1.5rem;
-    color: #fff;
-    background-color: transparent !important;
-    box-shadow: none !important;
-  }
-  .rec-arrow:hover {
-    color: ${({ theme }) => theme.COLORS.BLUE} ;
-  }
+  .embla {
+  overflow: clip;
+  gap: 2rem;
+}
+.embla__container {
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  place-content:center;
+
+  gap:48px 60px;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
 `

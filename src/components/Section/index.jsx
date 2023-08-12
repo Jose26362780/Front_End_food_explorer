@@ -1,26 +1,22 @@
 import { Container } from "./styles";
-import Carousel  from "react-elastic-carousel";
+import React from 'react'
+import useEmblaCarousel from 'embla-carousel-react'
 
-export function Section({ title, children}) {
-  const breakPoints = [
-    { width: 1, itemsToShow: 1 },
-    { width: 550, itemsToShow: 2 },
-    { width: 910, itemsToShow: 3 },
-    { width: 1140, itemsToShow: 4 },
-  ];
+export const Section = ({title, children}) => {
+  const [emblaRef] = useEmblaCarousel()
 
-  return(
-  <Container>
-      <h1>{title}</h1>
-
-      <Carousel
-        breakPoints={breakPoints}
-        pagination={false}
-      >
-        {children}
-      </Carousel>
-      
+  return (
+    <Container>
+         <h1>{title}</h1>
+         <div className="embla" ref={emblaRef}>
+        
+      <div className="embla__container" >
+      {children}
+        <div className="embla__slide"></div>
+        <div className="embla__slide"></div>
+        <div className="embla__slide"></div>
+      </div>
+    </div>
     </Container>
-
   )
 }

@@ -1,14 +1,14 @@
 
-import { useEffect, useState } from "react";
+import { HeaderAdmin } from "../../components/HeaderAdmin";
+import { AdminCard } from "../../components/AdminCard";
 import Fruits from "../../assets/images/fruits.png";
+import { Section } from "../../components/Section";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
-import { HeaderAdmin } from "../../components/HeaderAdmin";
-import { Card } from "../../components/Card";
-import { AdminCard } from "../../components/AdminCard";
-import { Section } from "../../components/Section";
-import { useAuth } from "../../hooks/auth";
 import { Container, Content } from "./styles";
+import { Card } from "../../components/Card";
+import { useEffect, useState } from "react";
+import { useAuth } from "../../hooks/auth";
 import { api } from "../../services/api";
 
 export function Home(){
