@@ -9,7 +9,7 @@ export function Footer(){
         </svg>
         <h1>Food Explorer</h1>
       </div>
-      <span>© 2022 - Todos os direitos reservados.</span>
+      <span>© 2023 - Todos os direitos reservados.</span>
  
     </Container>
   )

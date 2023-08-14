@@ -11,7 +11,7 @@ export const Container = styled.div`
 .embla__container {
   display: grid;
   grid-template-columns:repeat(4, 1fr);
-  place-content:center;
+  justify-content: center;
 
   gap:48px 60px;
 }
