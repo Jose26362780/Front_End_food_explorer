@@ -58,6 +58,9 @@ Inicie o servidor
 ```bash
   npm run dev 
 ```
+## 🔗 LAYOUT DO PROJETO 💻
+
+[[Figma]](https://www.figma.com/file/yGvQiqQYZPfcNRYolIgb1F/food-explorer-v2-(Community)?type=design&node-id=96-5219&mode=design&t=H0r2SbU0Ugm9Ls5j-0)
 
 
 
