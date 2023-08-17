@@ -87,6 +87,9 @@ Seguem as tecnologias e ferramentas utilizadas durante o projeto
  - [Nodemon](https://www.npmjs.com/package/nodemon)
 
 
+## 🔗 Observação 💻
+
+ As vezes o carregamento da pagina pode demorar mas espere
 
 
 ## 🔗 Links de Contato 💻
