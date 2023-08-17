@@ -17,19 +17,30 @@ export const Container = styled.div`
       width: 100%;
       height: 68px;
       z-index: 1;
+     
     }
+
+    
 `;
+
+
 
 
 
 export const Content = styled.div`
   grid-area: content;
 
-  padding: 130px 10px 0;
-  margin: 0 auto 30px;
+  padding: 130px 30px 0;
+  margin: 0px auto 30px;
+  
 
   width: 100%;
   max-width: 1280px;
+
+  section {
+      padding-top:300px;
+
+    }
 
 
 

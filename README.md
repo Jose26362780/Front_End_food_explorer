@@ -6,7 +6,7 @@
 
 ![preview](./.github/Capa.png)
 
-👉🏼[Link do projeto]()
+👉🏼[Link do projeto](https://i-food-explorer-1-cpcdcvt7j-jose26362780.vercel.app/)
 
 
 

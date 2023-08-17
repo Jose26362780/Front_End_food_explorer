@@ -11,12 +11,16 @@ export const Container = styled.div`
 .embla__container {
   display: grid;
   grid-template-columns:repeat(4, 1fr);
-  justify-content: center;
+  
 
-  gap:48px 60px;
+  gap:50px 60px;
+  padding: 20px 10px 10px 10px;
 }
+
 .embla__slide {
+  justify-content: center;
   flex: 0 0 100%;
   min-width: 0;
 }
 `
+
